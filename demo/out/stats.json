@@ -24,8 +24,8 @@
       "bytes": 10804,
       "population": 5452,
       "max_age": 210,
-      "evolve_seconds": 0.012371,
-      "generations_per_second": 17784.1
+      "evolve_seconds": 0.011813,
+      "generations_per_second": 18623.0
     },
     {
       "artifact": "life.gif",
@@ -33,8 +33,8 @@
       "frames": 90,
       "stride": 2,
       "population": 2262,
-      "evolve_seconds": 0.014667,
-      "generations_per_second": 12136.2
+      "evolve_seconds": 0.036174,
+      "generations_per_second": 4920.6
     },
     {
       "artifact": "card.txt",
@@ -47,7 +47,7 @@
     "simd_width": 32,
     "default_workers": 16,
     "kernel_floor_cells": 262144,
-    "measured_break_even_cells": 220278383,
+    "measured_break_even_cells": 19733775,
     "parallel_at_probe": false
   },
   "numpy": "2.5.3"
