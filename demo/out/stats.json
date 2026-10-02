@@ -1,0 +1,54 @@
+{
+  "poster": {
+    "width": 256,
+    "height": 256,
+    "gens": 220,
+    "seed": 4242,
+    "density": 0.36,
+    "rule": "conway",
+    "palette": "ember"
+  },
+  "animation": {
+    "width": 160,
+    "height": 160,
+    "gens": 178,
+    "stride": 2,
+    "seed": 20260915,
+    "density": 0.32,
+    "rule": "conway",
+    "palette": "ice"
+  },
+  "measured": [
+    {
+      "artifact": "poster.png",
+      "bytes": 10804,
+      "population": 5452,
+      "max_age": 210,
+      "evolve_seconds": 0.011645,
+      "generations_per_second": 18892.2
+    },
+    {
+      "artifact": "life.gif",
+      "bytes": 298643,
+      "frames": 90,
+      "stride": 2,
+      "population": 2262,
+      "evolve_seconds": 0.013661,
+      "generations_per_second": 13029.6
+    },
+    {
+      "artifact": "card.txt",
+      "bytes": 2362,
+      "population": 284,
+      "max_age": 61
+    }
+  ],
+  "kernel": {
+    "simd_width": 32,
+    "default_workers": 16,
+    "kernel_floor_cells": 262144,
+    "measured_break_even_cells": 26294573,
+    "parallel_at_probe": false
+  },
+  "numpy": "2.5.3"
+}

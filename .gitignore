@@ -1,0 +1,13 @@
+.pixi/
+dist/
+build/*.o
+__pycache__/
+*.so
+*.pyc
+.pytest_cache/
+.venv/
+# Machine-specific benchmark output. Reproduce it with `pixi run bench`; the
+# tables in README.md are quoted from a real run, but committing this file
+# would mean a diff every time someone ran the benchmark.
+bench/last_run.json
+showcase/last_mojosub.json
